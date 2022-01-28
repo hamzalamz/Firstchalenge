@@ -1,0 +1,83 @@
+
+body{
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main{
+    height: 530px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.equilibrium{
+    width: 260px;
+    margin: 15px 15px 0px 15px ;
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+h2{
+    margin-left: 15px;
+    color:white;
+    font-family: sans-serif;
+}
+p{
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+    font-family: sans-serif
+}
+#ETH{
+    margin-left: 15px;
+    display: flex;
+}
+#ETH p{
+    color: hsl(178, 100%, 50%);
+}
+#ETH img{
+   margin-top: 15px;
+    height:20px;
+}
+
+#clock{
+    display: flex;
+    margin-left: 60px;
+    
+}
+#clock img{
+    margin-top: 15px;
+     height:20px;
+}
+#ethclock{
+  display:flex;
+}
+#line{
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 0.5px solid hsl(215, 32%, 27%);
+    
+}
+#avatar{
+    display: flex;
+}
+#avatar img{
+    margin-left: 15px;
+    margin-top:14px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid  hsl(0, 0%, 100%);
+    border-radius: 16px;
+}
+#pp{
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
